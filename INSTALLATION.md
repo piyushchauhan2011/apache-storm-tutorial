@@ -355,7 +355,7 @@ public class WordCountTopology {
 ## 9. Build and submit
 
 ```bash
-mvn clean package -q
+./mvnw clean package -q
 
 # submit from the host (requires `storm` on your PATH)
 storm jar target/storm-wordcount-1.0.jar \
